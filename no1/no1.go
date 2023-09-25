@@ -21,7 +21,7 @@ func createDefaultClient() (http.Client, error) {
 
 // NG例
 func NG() {
-	var client http.Client
+	// var client http.Client
 
 	// ブロック内で変数をシャドーイングしてしまっている
 	if tracing {
